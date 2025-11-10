@@ -1,5 +1,17 @@
 body {
     background-color: #faebd7;
+    margin: 0;
+}
+
+.banner {
+    height: 1280px;
+    width: 100%;
+    background-image: url('Imagenes/Fondo1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: contain;
+    margin: 0;
 }
 
 h1 {
@@ -36,6 +48,32 @@ font-size: medium;
 text-align: justify;
 }
 
-img {
-   align-items: center;
+.Imagenes {
+display: flex;
+justify-content: center;
+margin-top: -40px;
+margin-bottom: -60px;
+}
+
+.Melody {
+    display: flex;
+    place-content: left;
+    margin-bottom: -55px;
+    width: 100%;
+    height: 100px;
+}
+
+.CaritoYyo {
+    display: flex;
+    size-adjust: contain;
+    place-content: center;
+    background-attachment: fixed;
+}
+
+.Final {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: small;
+    margin-top: 20px;
 }
