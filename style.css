@@ -6,6 +6,7 @@ body {
 .banner {
     height: 960px;
     width: 100%;
+    margin-top: 0;
     background-image: url('Imagenes/Fondo1.jpg');
     background-repeat: no-repeat;
     background-position: center;
