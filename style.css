@@ -4,6 +4,7 @@ body {
 }
 
 .banner {
+    margin-top: 0;
     height: 1280px;
     width: 100%;
     background-image: url('Imagenes/Fondo1.jpg');
